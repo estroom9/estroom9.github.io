@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+
+
+.room-wrapper {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+}
+.room-wrapper .room-id {
+  display: none;
+}
+
+.room-wrapper .room-name {
+  display: block;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+.center {
+  margin: auto;
+  margin-top: 15%;
+}
+.main-bg {
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?w=2000");
+}
+
+.board-card{
+}
+
+.card-wrapper {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.card-wrapper-selected .card-border{
+  border: 5px solid rgb(255, 235, 102);
+  opacity: 1;
+
+}
+
+.card-point {
+  margin: auto;
+  font-size: 45px;
+  color: white;
+
+}
+
+.card-border {
+  background-color: rgb(90, 50, 116);
+  opacity: .9;
+  display: flex;
+  width: 85px;
+  height: 110px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.btn-action {
+  width: 150px;
+  height: 45px;
+}
+
+.member-board{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.member-name {
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+.member-point {
+  font-size: 35px;
+  color: green;
+}
